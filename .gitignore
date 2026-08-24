@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets vault artifacts — never commit
+*.enc
+*.enc.bak
+*.enc.rev
+*.enc.lock
+*.enc.tmp
+backup.enc
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
